@@ -1,25 +1,25 @@
 class Anonit < Formula
   desc "Data anonymizing tool."
   homepage "https://github.com/jacobtread/anonit"
-  version "0.0.1"
+  version "0.0.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jacobtread/anonit/releases/download/0.0.1/anonit-aarch64-apple-darwin.tar.xz"
-      sha256 "349ffa6a14474aadd997a8cef4bc9fa02bb41390d8e853d1f1980dca830aa7e2"
+      url "https://github.com/jacobtread/anonit/releases/download/0.0.2/anonit-aarch64-apple-darwin.tar.xz"
+      sha256 "459b9e9e328e3f7f7705fad72c4ea172d2fb620dafbaae88d808429ea901bf85"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jacobtread/anonit/releases/download/0.0.1/anonit-x86_64-apple-darwin.tar.xz"
-      sha256 "0c0ae1f16cd923cf2950f65dbc76885b676670c37c91f631d3fc9e039ba15d3b"
+      url "https://github.com/jacobtread/anonit/releases/download/0.0.2/anonit-x86_64-apple-darwin.tar.xz"
+      sha256 "8bba134ece5216f34b1174b51e33d6e2b74ed2bfe2ca884e408df83dd0559201"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jacobtread/anonit/releases/download/0.0.1/anonit-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a1ba4e08d5734083fcf8c05f1056127f187180aa76b849b12850fe32c9a8f571"
+      url "https://github.com/jacobtread/anonit/releases/download/0.0.2/anonit-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "40287df7155a4bbc30c795d9c3075ee04d47ca91ee6d793c8e3d4e5bcb4d60c5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jacobtread/anonit/releases/download/0.0.1/anonit-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6dcee2b4722e86409c2986b4cc64414847b5f8398f66d0021a145d1d78a5dd6d"
+      url "https://github.com/jacobtread/anonit/releases/download/0.0.2/anonit-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "387d0ba1e760071ba6d709589025febe013178b23de5788ca1d4c44de1a22a94"
     end
   end
   license "MIT"
