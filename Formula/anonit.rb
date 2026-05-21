@@ -5,21 +5,21 @@ class Anonit < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/jacobtread/anonit/releases/download/0.0.3/anonit-aarch64-apple-darwin.tar.xz"
-      sha256 "f6840567fd6832863a12e5074c0ef2bc3923749d401a12231c120ac3521d0fbb"
+      sha256 "7d4a0b1830df6cb974116fa17e74e8d3144385cee3f49e2895e16d9c18f6c39c"
     end
     if Hardware::CPU.intel?
       url "https://github.com/jacobtread/anonit/releases/download/0.0.3/anonit-x86_64-apple-darwin.tar.xz"
-      sha256 "451f414f236714958f8467ffb9dbf3aafa4778cf8f3bf466b59fbb227780d64c"
+      sha256 "f9da9ebb5e319754592aea9f7ec3d33ed4ea2c5bfe3b2959b66fcf9c95963418"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/jacobtread/anonit/releases/download/0.0.3/anonit-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5d86abf51731d69c34e91aba480fd7e9053f758f9343c433ff2175aa4536d7d3"
+      sha256 "537f073bb33745a55879c228c907d0125b8199a248ed2934d49030558ed0316a"
     end
     if Hardware::CPU.intel?
       url "https://github.com/jacobtread/anonit/releases/download/0.0.3/anonit-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8f9ab5e20b85ed1a317e2e6ca5e4f0828eb9e5c0414b6b5fcdd388a423535d74"
+      sha256 "a7fa2e313db384f057fbc292b68df619a2f340d068d11a43d2055bd74d42f414"
     end
   end
   license "MIT"
