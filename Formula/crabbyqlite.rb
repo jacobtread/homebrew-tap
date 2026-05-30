@@ -1,25 +1,25 @@
 class Crabbyqlite < Formula
   desc "Tool for working with SQLite files"
   homepage "https://github.com/jacobtread/crabbyqlite"
-  version "0.0.2"
+  version "0.0.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jacobtread/crabbyqlite/releases/download/0.0.2/crabbyqlite-aarch64-apple-darwin.tar.xz"
-      sha256 "1f793ca75c9b19ac9ab6ea378269dd698e7acc72f591941b367d942f88c5faaf"
+      url "https://github.com/jacobtread/crabbyqlite/releases/download/0.0.3/crabbyqlite-aarch64-apple-darwin.tar.xz"
+      sha256 "e32b7f3445b00763484b9f96b359f3791ba43fa5eb7d140128c69ddfaea12546"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jacobtread/crabbyqlite/releases/download/0.0.2/crabbyqlite-x86_64-apple-darwin.tar.xz"
-      sha256 "b6377d0bdbd9fd9967747da74cbc445d408edd188c1afad908a751dc63922332"
+      url "https://github.com/jacobtread/crabbyqlite/releases/download/0.0.3/crabbyqlite-x86_64-apple-darwin.tar.xz"
+      sha256 "f34f7f49098f53a288a6c2a72988f20e106af268713d44a1dd14d5e3e82a8941"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jacobtread/crabbyqlite/releases/download/0.0.2/crabbyqlite-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ec7ce38ae33493bb8ed3ed47287c978f88262cf67a9ea20c108b3c7c2def6ac3"
+      url "https://github.com/jacobtread/crabbyqlite/releases/download/0.0.3/crabbyqlite-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3326715210cb47fecf9f933519b2f7e024b8e7061361929a21c9a98893dae942"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jacobtread/crabbyqlite/releases/download/0.0.2/crabbyqlite-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "48b61dfc27c19da0c75ef85278e32038217bf1f05ada3e6ddd4c219c9db22026"
+      url "https://github.com/jacobtread/crabbyqlite/releases/download/0.0.3/crabbyqlite-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "63a31a6cee4d52fb473651f083e8dfdf620fc2450b0709408709fab8976ee443"
     end
   end
   license "MIT"
