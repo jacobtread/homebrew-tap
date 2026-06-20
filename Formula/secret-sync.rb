@@ -1,25 +1,25 @@
 class SecretSync < Formula
   desc "CLI tool for syncing local secret files with remote secret managers"
   homepage "https://github.com/jacobtread/secret-sync"
-  version "0.2.2"
+  version "0.2.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jacobtread/secret-sync/releases/download/0.2.2/secret-sync-aarch64-apple-darwin.tar.xz"
-      sha256 "bcbc86b75018198b14675e3e32c87f64eecc465901820f8c9fb807059681225d"
+      url "https://github.com/jacobtread/secret-sync/releases/download/0.2.3/secret-sync-aarch64-apple-darwin.tar.xz"
+      sha256 "3af4ba27de5916f13af2b444dfb0be39fe7f33ad1fcf18687f121073f07db011"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jacobtread/secret-sync/releases/download/0.2.2/secret-sync-x86_64-apple-darwin.tar.xz"
-      sha256 "aba2a9dbb76a618ec7889296989f95110a0cdbc6a157411d92400a75ff0ea969"
+      url "https://github.com/jacobtread/secret-sync/releases/download/0.2.3/secret-sync-x86_64-apple-darwin.tar.xz"
+      sha256 "b76408a25475100c8c02a9cdcdf3f9cbcceb47c2b8419cf8b2e9ec38044caa7e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jacobtread/secret-sync/releases/download/0.2.2/secret-sync-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "162be240768e8651720f1a66df6102b5eb2b45c89791f21ab8ed1c00c33c4241"
+      url "https://github.com/jacobtread/secret-sync/releases/download/0.2.3/secret-sync-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6f6b8fb2294205a8987fa81192d5dc4f7de33ff6f808e59529071c04f14b9a54"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jacobtread/secret-sync/releases/download/0.2.2/secret-sync-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5dbe1f0662a38fa6fd01ee10f0bcb534ce4e6115b3d2ae6b07fdea5d153fc87a"
+      url "https://github.com/jacobtread/secret-sync/releases/download/0.2.3/secret-sync-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "36fe817ab042b5f7bc28f186de3297f49c73241aa847b40fe172e8e14ed80fba"
     end
   end
   license "MIT"
