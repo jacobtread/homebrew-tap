@@ -5,21 +5,21 @@ class TilepadCli < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/tilepad/tilepad-cli/releases/download/0.6.0/tilepad-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "b1dc9a85fb876efb835b575a8b96af1edf4865064453792827b07d38a08a8d5e"
+      sha256 "f5b88b786ba45d9ef33e3e3dc4f051aa560ceab8123b99a2d6ab395049cf6af3"
     end
     if Hardware::CPU.intel?
       url "https://github.com/tilepad/tilepad-cli/releases/download/0.6.0/tilepad-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "6eda4e49cfc08f8ec2542d2c0e860ad1f25a41ee8f4ea704c4381a4d72a7b483"
+      sha256 "9b4220e01940c22b0373433c323b200c855cbe1486d7d68655e4328129a9c7eb"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/tilepad/tilepad-cli/releases/download/0.6.0/tilepad-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "2c347d2c695cf824c11de48082fbd74d27dbb51eadb4fcfdd07a5d395a0ac7d0"
+      sha256 "19568d0e0abf24a33b38a2e1d72cf3e7064dcf7d94274ca7ad06c8a69d2f7f26"
     end
     if Hardware::CPU.intel?
       url "https://github.com/tilepad/tilepad-cli/releases/download/0.6.0/tilepad-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5310618ef2075740d102e33b02f736f710f4a2e06d62e9fc411b2d7184c57b44"
+      sha256 "151eb0c904f7615fac6b22172096ac6e103d71ccbc1fb0027d7ab869a25fc704"
     end
   end
   license "MIT"
